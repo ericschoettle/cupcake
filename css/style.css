@@ -1,3 +1,6 @@
+body {
+  background-color: #eaeef7;
+}
 .navbar {
   display: inline-flex;
   background-color: gray;
@@ -30,22 +33,6 @@ h2 {
   padding-bottom: 3%;
 }
 
-table {
-  margin: auto;
-}
-
-td img {
-  width: 250px;
-  border-radius: 15%;
-  border: 4px solid gray;
-}
-
-figcaption {
-  font-size: 20px;
-  text-align: center;
-  font-weight: bold;
-}
-
 .red {
   color: red;
 }
@@ -71,25 +58,34 @@ figcaption {
 .about {
   font-size: 18px;
 }
- .sidebar {
-   line-height: 30px;
-   width: 300px;
-   background-color: gray;
-   margin: 3% 3% 0% 3%;
-   font-size: 18px;
-   padding: 0 1.5% 1.5% 1.5%;
- }
 
- .sidebar p {
-   text-align: center;
- }
+.sidebar {
+ line-height: 30px;
+ width: 300px;
+ background-color: gray;
+ margin: 3% 3% 0% 3%;
+ font-size: 18px;
+ padding: 0 1.5% 1.5% 1.5%;
+}
+
+.sidebar p {
+ text-align: center;
+}
+
+.column h3 {
+text-align: center;
+}
 
 .column img {
   width: 85%;
+  margin-left: 7.5%;
   border-radius: 15%;
   border: 4px solid gray;
 }
 
+.column p {
+  text-align: center;
+}
 @media screen and (min-width: 500px) {
   .column{
     width: 30%;
@@ -100,4 +96,5 @@ figcaption {
     float: right;
     width: 10%;
   }
+
 }
