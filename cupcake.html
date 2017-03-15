@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" charset="utf-8">
-    <title>Starshaped Cupcakes</title>
+    <title>StarFish Cupcakes</title>
   </head>
   <body>
-    <h1>Starshaped Cupcakes</h1>
+    <h1>StarFish Cupcakes</h1>
     <div class="navbar">
-      <a href="#">Locations</a>
-      <a href="#">About Us</a>
-      <a href="menu">Menu</a>
-      <a href="#">Contact</a>
+      <a href="#locations">Locations</a>
+      <a href="#about">About Us</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
     </div>
     <h2>Cupcakes by Star</h2>
 
     <!--photo table-->
-    <h2>Menu</h2>
+    <h2 id="menu">Menu</h2>
     <table>
       <tr>
         <td>
@@ -63,7 +63,7 @@
     </table>
 
 <!-- about us info and sidebar-->
-    <h2>About Us</h2>
+    <h2 id="about">About Us</h2>
     <div class="sidebar">
       <p>
         more info
@@ -72,27 +72,29 @@
       <a href="https://en.wikipedia.org/wiki/Pescetarianism">Pescatarianism</a>
     </div>
 
-    <p class="about"><img class="chef" src="img/chef.png" alt="swedish chef" />Star is an American chef, author and youtube personality. She is recognized for bringing Faroe Island cuisine to the American public with her debut cookbook, Mastering the Art of Fish Desserts, and her subsequent television programs, the most notable of which was The Filet Chef, which premiered in 2018. She opened Starshaped to explore the confluence of cupcakes and island based pescatarianism</p>
+    <p class="about"><img class="chef" src="img/chef.png" alt="swedish chef"/>Star is an American chef, author and youtube personality. She is recognized for bringing Faroe Island cuisine to the American public with her debut cookbook, Mastering the Art of Fish Desserts, and her subsequent television programs, the most notable of which was The Filet Chef, which premiered in 2018. She opened Starshaped to explore the confluence of cupcakes and island based pescatarianism</p>
 
 <!-- Location columns below-->
-    <h2>Locations</h2>
-    <div class="seattle">
+    <h2 id="locations">Locations</h2>
+    <div class="column">
       <h3>Seattle, WA, US</h3>
       <img src="img/seattle.jpg" alt="Picture of Seattle" />
       <p>Some colorful info about this location</p>
     </div>
-    <div class="timbuktu">
+    <div class="column">
       <h3>Timbuktu</h3>
-      <img src="img/timbuktu.jpg" alt="" />
+      <img src="img/timbuktu.jpg" alt="Timbuktu pic" />
       <p>Some colorful info about this location</p>
     </div>
-    <div class="Sweden">
-      <h3>Sweden</h3>
-      <img src="img/sweden.jpg" alt="" />
+    <div class="column">
+      <h3>Faroe Islands</h3>
+      <img src="img/faroe.jpg" alt="Faroe Islands pic" />
       <p>Some colorful info about this location</p>
     </div>
-    <h2 >Contact Us</h2>
+
+    <h2 id="contact">Contact Us</h2>
     <p>Contact Us</p>
+    <a href="#top"><button>Top</button></a>
 
   </body>
 </html>
