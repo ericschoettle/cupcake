@@ -16,7 +16,7 @@ h1 {
 }
 
 .flashy {
-  color: red;
+  font-weight: bold;
   font-style: italic;
 }
 
@@ -28,4 +28,25 @@ td img {
   width: 250px;
   border-radius: 15%;
   border: 4px solid gray;
+}
+
+figcaption {
+  font-size: 20px;
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.gold {
+  color: gold;
+}
+
+.meta {
+  text-shadow: #b5becc 2px 2px;
 }
