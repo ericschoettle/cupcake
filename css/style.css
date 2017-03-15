@@ -1,0 +1,9 @@
+.navbar {
+  display: inline-flex;
+  background-color: gray;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
