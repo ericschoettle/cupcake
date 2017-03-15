@@ -15,9 +15,10 @@ h1 {
   text-align: center;
 }
 
-.flashy {
+h2 {
   font-weight: bold;
   font-style: italic;
+  clear: both;
 }
 
 table {
@@ -33,6 +34,7 @@ td img {
 figcaption {
   font-size: 20px;
   text-align: center;
+  font-weight: bold;
 }
 
 .red {
@@ -50,3 +52,18 @@ figcaption {
 .meta {
   text-shadow: #b5becc 2px 2px;
 }
+
+.chef {
+  float: left;
+  height: 200px;
+}
+
+.about {
+  font-size: 18px;
+}
+ .sidebar {
+   display: inline-table;
+   float: right;
+   width: 20%;
+   background-color: gray;
+ }
